@@ -4,7 +4,7 @@
 Developed a unified and efficient notification system to replace individually written PHP services for various notification channels. The new system aimed to operate asynchronously without interfering with core business logic and provide a single point of entry for multiple notification services.
 
 ---
-This is Notification configuration
+This is Notification API configuration
 <img width="1019" alt="image" src="https://github.com/user-attachments/assets/49e654ba-8c6e-46d1-bdbb-a2eb7535a79e">
 
 ## Architecture
