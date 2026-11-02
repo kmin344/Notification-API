@@ -1,7 +1,6 @@
 # Notification API (Email, SMS, Kakaotalk(Korean Messaging Service), App Push)
 
-## Project Overview
-Developed a unified and efficient notification system to replace individually written PHP services for various notification channels. The new system aimed to operate asynchronously without interfering with core business logic and provide a single point of entry for multiple notification services.
+> **Case study.** This repository documents a production system I designed and built at work. The source code is proprietary and not published; this write-up covers the problem, the architecture, and the measured results.
 
 ## Project Overview
 Developed a unified and efficient notification system to replace individually written PHP services for various notification channels. The new system aimed to operate asynchronously without interfering with core business logic and provide a single point of entry for multiple notification services.
@@ -45,8 +44,6 @@ graph TD
     style CQRS fill:#f9f,stroke:#333,stroke-width:2px
     style Hashing Algorithm fill:#f0f,stroke:#333,stroke-width:2px
 ```
-
-
 
 ## Key Challenges
 - Existing PHP notification services interfered with core logic when malfunctioning
